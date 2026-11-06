@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Librería Nakano - Carrito de Compras</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; margin: 0; background-color: #eef2f5; color: #333333; 
+        }
+
+        header { 
+            background-color: #003da5; color: white; text-align: center; padding: 25px 10px; 
+        }
+
+        header h1 { 
+            margin: 0;font-size: 32px; 
+        }
+
+        nav { 
+            background-color: #4a2c11; text-align: center; padding: 12px; 
+        }
+
+        nav a { 
+            color: white; text-decoration: none; background-color: #003da5; padding: 10px 18px; border-radius: 20px; font-weight: bold; display: inline-block; margin: 0 5px; 
+        }
+
+        nav a:hover { 
+            background-color: #00266b; 
+        }
+
+        .contenedor-carrito {
+            max-width: 800px; margin: 40px auto; background-color: white; padding: 25px 30px; border-radius: 10px; border: 1px solid #d0d0d0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #003da5; margin-top: 0; border-bottom: 2px solid #003da5; padding-bottom: 8px; font-size: 24px;
+        }
+
+        table {
+            width: 100%; border-collapse: collapse; margin-top: 20px;
+        }
+
+        table th, table td {
+            padding: 12px; text-align: center; border-bottom: 1px solid #dddddd;
+        }
+
+        table th {
+            background-color: #003da5; color: white;
+        }
+
+        .img-tabla {
+            width: 50px; height: 70px; object-fit: contain;
+        }
+
+        .resumen-total {
+            margin-top: 25px; text-align: right; font-size: 18px;
+        }
+
+        .btn-comprar {
+            background-color: #003da5;
+            color: white; padding: 12px 25px; border: none; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 15px;
+        }
+
+        .btn-comprar:hover {
+            background-color: #00266b;
+        }
+
+        footer { 
+            background-color: #001f5c; color: white; text-align: center; padding: 20px; margin-top: 40px; 
+        }
+
+        footer p { 
+            margin: 5px 0; font-size: 14px; 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Librería Nakano</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="comics.html">Cómics</a>
+        <a href="mangas.html">Mangas</a>
+        <a href="novelas.html">Novelas</a>
+        <a href="carrito.html">🛒</a>
+        <a href="usuarios.php">Inicio de Sesión / Registro</a>
+    </nav>
+
+    <div class="contenedor-carrito">
+        <h2>🛒 Tu Carrito de Compras</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Título</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="resumen-total">
+            <p><strong>Total estimado:</strong> <u></u></p>
+            <button class="btn-comprar">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>Gardea Hernandez Christian David</strong></p>
+        <p>Grupo: I | No. Control: 0545</p>
+    </footer>
+
+</body>
+</html>
